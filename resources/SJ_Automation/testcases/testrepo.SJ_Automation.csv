@@ -1,0 +1,2 @@
+TC_ID	TC_Name	Browser	Execute	TC_Severity	Platform
+TC_0001	Verify Registration Form for SauceLabs	Chrome	1	Major	FrontEnd

@@ -1,0 +1,3 @@
+TC_ID	step_title	CombinationFile	TestData	Sequence	Active
+TC_0001	Open the browser	/resources/SJ_Automation/combination_files/cf_browser_open.csv	/resources/SJ_Automation/testdata/Generic/td_browser_open.csv	1	1
+TC_0001	Login in SauceLabs	/resources/SJ_Automation/combination_files/cf_login_SJ.csv	/resources/SJ_Automation/testdata/Generic/td_login_SJ.csv	2	1

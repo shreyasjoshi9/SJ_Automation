@@ -1,0 +1,15 @@
+PageName	ControlName	xpath	Control	Comments
+login_page			Label	
+login_page			Button	
+login_page			TextBox	
+login_page			TextBox	
+login_page			TextBox	
+login_page			TextBox	
+login_page			TextBox	
+login_page			TextBox	
+login_page			Dropdown	
+login_page			Dropdown	
+login_page			TextBox	
+login_page			TextBox	
+login_page			Checkbox	
+login_page			Label	
