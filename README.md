@@ -11,6 +11,42 @@ test data in testdata file and create a combination file which will have the pat
 
 The testcases marked with "1" will be executed.
 
+# Install Dependencies
+
+Navigate to the project directory and install required Python packages:
+
+Make sure Python 3.10.0+ is installed.
+
+pipenv install Pipfile
+
+Running the Tests
+
+Execute the tests using Pytest. This command will also generate an Allure report.
+
+pytest --alluredir=/path/to/allure/results
+
+After running the tests, you can view the Allure report by using:
+
+allure serve /path/to/allure/results
+
+Deployment
+
+Add additional notes about how to deploy this on a live system if applicable.
+
+Built With
+
+Playwright - The web automation framework used
+
+Pytest - The testing framework
+
+Allure - Test reporting tool
+
+Authors:
+
+Shreyas Joshi
+
+License: NA
+
 Please reach out to shreyas.joshi9@gmail.com for queries.
 
 :)
