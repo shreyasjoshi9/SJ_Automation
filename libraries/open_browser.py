@@ -57,6 +57,11 @@ class BrowserDetails():
             node_ip = get_node_ip()
             runtime_driver_update = config.get('Execution', 'download_driver_update_runtime').lower()
             runtime_driver_update = str(runtime_driver_update).lower()
+            chrome_prefs = {
+                "credentials_enable_service": False,
+                "profile.password_manager_enabled": False,
+                "profile.password_manager_leak_detection": False
+            }
 
             if browser_type == "":
                 browser_type = "chrome"
@@ -79,7 +84,9 @@ class BrowserDetails():
                 options = webdriver.ChromeOptions()
                 options.add_argument('--start-maximized')
                 options.add_argument('--disable-blink-features=AutomationControlled')
+                options.add_argument("--safebrowsing-enabled=false");
                 options.add_experimental_option("excludeSwitches", ["enable-logging"])
+                options.add_experimental_option("prefs", chrome_prefs)
                 if runtime_driver_update == "true":
                     driver = webdriver.Chrome(executable_path=ChromeDriverManager.install(), options=options)
                 else:

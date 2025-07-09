@@ -1,2 +1,16 @@
 Keyword	Uimap	Locator	Sequence	Active	comments
 OpenUrl		url	1	1	
+typetext	/resources/SJ_Automation/uimaps/login_SJ_page.csv	username	2	1	
+typetext	/resources/SJ_Automation/uimaps/login_SJ_page.csv	password	3	1	
+click	/resources/SJ_Automation/uimaps/login_SJ_page.csv	loginBtn	4	1	
+click	/resources/SJ_Automation/uimaps/login_SJ_page.csv	addToCartBackPack	5	1	
+click	/resources/SJ_Automation/uimaps/login_SJ_page.csv	cartBtn	6	1	
+verifytext	/resources/SJ_Automation/uimaps/login_SJ_page.csv	productNameInCart	7	1	
+verifytext	/resources/SJ_Automation/uimaps/login_SJ_page.csv	productPriceInCart	8	1	
+click	/resources/SJ_Automation/uimaps/login_SJ_page.csv	checkoutBtn	9	1	
+typetext	/resources/SJ_Automation/uimaps/login_SJ_page.csv	checkoutFirstName	10	1	
+typetext	/resources/SJ_Automation/uimaps/login_SJ_page.csv	checkoutLastName	11	1	
+typetext	/resources/SJ_Automation/uimaps/login_SJ_page.csv	checkoutZipcode	12	1	
+click	/resources/SJ_Automation/uimaps/login_SJ_page.csv	checkoutContinue	13	1	
+click	/resources/SJ_Automation/uimaps/login_SJ_page.csv	checkoutFinish	14	1	
+verifytext	/resources/SJ_Automation/uimaps/login_SJ_page.csv	ThankYouNote	15	1	

@@ -1,15 +1,23 @@
 PageName	ControlName	xpath	Control	Comments
-login_page			Label	
-login_page			Button	
-login_page			TextBox	
-login_page			TextBox	
-login_page			TextBox	
-login_page			TextBox	
-login_page			TextBox	
-login_page			TextBox	
-login_page			Dropdown	
-login_page			Dropdown	
-login_page			TextBox	
-login_page			TextBox	
-login_page			Checkbox	
-login_page			Label	
+login_page	username	//input[@id='user-name']	TextBox	
+login_page	password	//input[@id='password']	TextBox	
+login_page	loginBtn	//input[@id='login-button']	Button	
+login_page	cartBtn	//a[@class='shopping_cart_link']	Button	
+login_page	burgerMenu	//button[@id='react-burger-menu-btn']	Button	
+login_page	logoutBtn	//a[@id='logout_sidebar_link']	TextBox	
+login_page	allItemsLink	//a[@id='inventory_sidebar_link']	Button	
+login_page	closeBurgerMenu	//button[@id='react-burger-cross-btn']	Button	
+login_page	itemPrice	//div[@class='inventory_item_price']	Label	
+login_page	removeFromCart	//button[.='Remove']	Button	
+login_page	checkoutBtn	//button[@id='checkout']	Button	
+login_page	continueShoppingBtn	//button[@id='continue-shopping']	Button	
+login_page	sortByDropdown	//select[@class='product_sort_container']	Checkbox	
+login_page	productNameInCart	//div[@data-test='inventory-item-name']	Label	
+login_page	productPriceInCart	//div[@class='inventory_item_price']	Label	
+login_page	addToCartBackPack	//button[@id='add-to-cart-sauce-labs-backpack']	Button	
+login_page	checkoutFirstName	(//input[@id='first-name'])[1]	TextBox	
+login_page	checkoutLastName	(//input[@id='last-name'])[1]	TextBox	
+login_page	checkoutZipcode	(//input[@id='postal-code'])[1]	TextBox	
+login_page	checkoutContinue	(//input[@id='continue'])[1]	Button	
+login_page	checkoutFinish	(//button[normalize-space()='Finish'])[1]	Button	
+login_page	ThankYouNote	(//h2[normalize-space()='Thank you for your order!'])[1]	Label	

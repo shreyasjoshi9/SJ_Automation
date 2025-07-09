@@ -1,2 +1,16 @@
 Sequence	LocatorName	Data	TD_Type
 1	url		
+2	username	standard_user 	
+3	password	secret_sauce 	
+4	loginBtn	click	
+5	addToCartBackPack	click	
+6	cartBtn	click	
+7	productNameInCart	Sauce Labs Backpack	
+8	productPriceInCart	$29.99	
+9	checkoutBtn	click	
+10	checkoutFirstName	Shreyas	
+11	checkoutLastName	Joshi	
+12	checkoutZipcode	411038	
+13	checkoutContinue	click	
+14	checkoutFinish	click	
+15	ThankYouNote	Thank you for your order!	

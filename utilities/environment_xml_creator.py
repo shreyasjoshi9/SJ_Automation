@@ -85,7 +85,7 @@ def environment_xml_creation(url_list, browsers_list):
 
         tree = ET.ElementTree(environment)
         logging.info("Environment file path: "+environment_file_path)
-        tree.write(r'F:\SJ_Automation\output\TC_0001\environment.xml', xml_declaration= True, encoding='utf-8')
+        tree.write(environment_file_path, xml_declaration= True, encoding='utf-8')
 
     except Exception as e:
         logging.warning("Error in generating Environment Details "+ str(e))
